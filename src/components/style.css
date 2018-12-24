@@ -1,0 +1,50 @@
+@import './about/style.css';
+@import './footer/style.css';
+@import './home/style.css';
+@import './navigation/style.css';
+@import './scrollable/style.css';
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-container {
+  /* Same as the height of the navbar */
+  margin-top: 35px;
+  min-height: 80vh;
+}
+
+.footer-container {
+  /* display: flex; */
+  min-height: 10vh;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.two-columns div {
+  margin: auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.white-text {
+  color: white;
+}
